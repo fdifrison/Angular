@@ -8,8 +8,9 @@
 
 In each branch a different project is developed. Main branch is used only as entry point
 
+Installing npm, ng client (nb. on windows with admin enable ng with ```Set-ExecutionPolicy -ExecutionPolicy RemoteSigned```)
 ## Branches List
 
-* **Hello World**: hello-world
+* **Home component**: home-component https://angular.io/tutorial/first-app
 
-    Installing npm, ng client (nb. on windows with admin enable ng with ```Set-ExecutionPolicy -ExecutionPolicy RemoteSigned```)
+    
