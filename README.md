@@ -12,5 +12,6 @@ Installing npm, ng client (nb. on windows with admin enable ng with ```Set-Execu
 ## Branches List
 
 * **Home component**: home-component https://angular.io/tutorial/first-app
+* **Tour of Heroes**: tour-of-heroes https://angular.io/tutorial/tour-of-heroes
 
     
