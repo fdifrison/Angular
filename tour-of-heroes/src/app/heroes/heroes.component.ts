@@ -8,11 +8,9 @@ import {MessageService} from "../message.service";
 
 
 @Component({
-  standalone: true,
   selector: 'app-heroes',
   templateUrl: './heroes.component.html',
   styleUrls: ['./heroes.component.css'],
-  imports: [NgFor, NgIf, UpperCasePipe, FormsModule, HeroDetailComponent]
 })
 export class HeroesComponent {
 
