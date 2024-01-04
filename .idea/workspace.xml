@@ -4,38 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84a8888a-f873-4a05-8386-3bd5253724fd" name="Changes" comment="added Routing through app-routing.modules.ts">
-      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/protractor.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/app.po.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/details/details.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/details/details.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/home/home.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/home/home.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/housing-location/housing-location.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/housing-location/housing-location.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/housing.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/housingLocation.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/routes.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/location-pin.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.spec.json" beforeDir="false" />
-    </list>
+    <list default="true" id="84a8888a-f873-4a05-8386-3bd5253724fd" name="Changes" comment="project moved in inner folder;&#10;N.B. npx json-server --watch db.json --port 3000 to serve a mock service" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +56,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "home-component",
+    "git-widget-placeholder": "main",
     "js.last.introduce.type": "CONST",
     "last_opened_file_path": "C:/Users/gfrison/Desktop/Programming/GitHub/Angular",
     "node.js.detected.package.eslint": "true",
@@ -105,7 +74,7 @@
       <recent name="C:\Users\gfrison\Desktop\SpringAcademy\Angular\src\app\course-card" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.Angular Application">
     <configuration name="E2E Tests (angular.io-example)" type="JavaScriptTestRunnerProtractor">
       <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
       <node-interpreter value="project" />
@@ -396,7 +365,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial commit" />
     <MESSAGE value="ng new angular-course" />
     <MESSAGE value="init 1-component project" />
     <MESSAGE value="lesson1: overview" />
@@ -421,6 +389,7 @@
     <MESSAGE value="created a service that fetch data asynchronously using rxJs" />
     <MESSAGE value="created a messageService with behavior connected with hero.service.ts and heroes.component.ts" />
     <MESSAGE value="added Routing through app-routing.modules.ts" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Routing through app-routing.modules.ts" />
+    <MESSAGE value="project moved in inner folder;&#10;N.B. npx json-server --watch db.json --port 3000 to serve a mock service" />
+    <option name="LAST_COMMIT_MESSAGE" value="project moved in inner folder;&#10;N.B. npx json-server --watch db.json --port 3000 to serve a mock service" />
   </component>
 </project>
