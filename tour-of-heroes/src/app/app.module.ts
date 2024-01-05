@@ -8,8 +8,12 @@ import { MessagesComponent } from './messages/messages.component';
 import {RouterModule} from "@angular/router";
 import {AppRoutingModule} from "./app-routing.module";
 import { DashboardComponent } from './dashboard/dashboard.component';
+import {HttpClientModule} from "@angular/common/http";
+import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
+import { InMemoryDataService } from './in-memory-data.service';
 
 @NgModule({
+  bootstrap: [AppComponent],
   declarations: [
     AppComponent,
     HeroesComponent,
@@ -22,10 +26,13 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     FormsModule,
     RouterModule,
     AppRoutingModule,
+    HttpClientModule,
+    HttpClientInMemoryWebApiModule.forRoot(
+      InMemoryDataService, {dataEncapsulation: false}
+    )
   ],
   providers: [
     // no need to place any providers due to the `providedIn` flag...
-  ],
-  bootstrap: [ AppComponent ]
+  ]
 })
 export class AppModule { }
